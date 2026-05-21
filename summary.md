@@ -1,0 +1,1 @@
+This week I learned the basics of Linux and Git. I practiced creating folders and files, using common Linux commands, and setting file permissions. I also learned how to create a Git repository, make commits, create a branch, merge changes, and push my work to GitHub.
