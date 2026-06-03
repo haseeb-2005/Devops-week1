@@ -8,14 +8,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Make Script Executable
-        run: chmod +x system-info.sh
-
-      - name: Run System Info Script
-        run: ./system-info.sh
+      - name: Show System Info
+        run: |
+          uname -a
+          hostname
+          date
 
       - name: Success Message
         run: echo "Week 3 CI Successful"
